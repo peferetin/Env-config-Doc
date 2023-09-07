@@ -81,3 +81,65 @@ cp -r <directory1> <directory2>
 ```bash
 ls -a
 ```
+
+## Git
+
+### Global Information Tracker
+
+#### In conclusion, the GIT full form is “Global Information Tracker,” a powerful version control system widely used for software development and other collaborative projects. GIT allows multiple developers to work on a project simultaneously while ensuring that their changes do not interfere with one another.
+
+### Git Commands
+
+1. Initialize an existing directory as a Git repo.
+
+```bash
+git init
+```
+
+2. Create a branch
+
+```bash
+git branch <branchname>
+```
+
+3. Clone a repo
+
+```
+git clone <copied repo url>
+```
+
+4. Show modified files, staged for commit
+
+```bash
+git status
+```
+
+5. Adding files and get ready for commit
+
+```
+git add <filename>  git add <.>
+```
+
+6. Delete a branch
+
+```
+git remove -D <branchname>
+```
+
+7. show the commit history for the currently active branch
+
+```
+git log
+```
+
+8. Transmit local branch commits to the remote repository branch
+
+```
+git push [alia]<branchname>
+```
+
+9. Merge a remote branch into your current branch to bring it up to date
+
+```
+git merge [alias] <branchname>
+```
